@@ -979,6 +979,7 @@ GameObject:
   m_Component:
   - component: {fileID: 403712032}
   - component: {fileID: 403712031}
+  - component: {fileID: 403712033}
   m_Layer: 0
   m_Name: Cave Water Drops
   m_TagString: Untagged
@@ -1098,6 +1099,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &403712033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 403712030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72071924f6236c14f87c58f0f7986ae9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CanvasPrefab: {fileID: 8870750303014381627, guid: 3af81b2bb22b60348b47e8d0605411fe, type: 3}
+  AlwaysTracked: 0
+  MaxDistance: 9
+  Scale: 0.3
+  DynamicScale: 0
+  RootOffset: {x: 0, y: 0, z: 0}
 --- !u!1 &415998031
 GameObject:
   m_ObjectHideFlags: 0
