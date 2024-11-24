@@ -296,7 +296,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CanvasPrefab: {fileID: 8870750303014381627, guid: 3af81b2bb22b60348b47e8d0605411fe, type: 3}
-  AlwaysTracked: 0
+  AlwaysTracked: 1
   MaxDistance: 15
   Scale: 1
   DynamicScale: 0
